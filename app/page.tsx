@@ -201,7 +201,10 @@ export default function FinanceTracker() {
             Take control of your financial journey.
           </p>
           <p className="mb-12 text-sm font-medium text-white-400">
-            Developed by Ramil Moral
+            Developed by{' '}
+            <span className="text-2xl font-bold text-cyan-800">
+              Ramil Moral
+            </span>
           </p>
 
           <div className="flex flex-col items-center space-y-4">
@@ -209,7 +212,7 @@ export default function FinanceTracker() {
               onClick={handleDismissSplash}
               className="rounded-md bg-white px-8 py-3 text-sm font-semibold text-slate-900 transition-all duration-300 hover:scale-105 hover:bg-gray-100 hover:shadow-lg"
             >
-              Enter Dashboard
+              Click to Continue
             </button>
             <label className="flex items-center space-x-2 text-sm text-white-400 cursor-pointer group">
               <input
@@ -345,7 +348,6 @@ export default function FinanceTracker() {
               </button>
             </div>
           </form>
-
           <div className="rounded-xl border border-gray-200 bg-white p-6 shadow-sm md:col-span-2 transition-all duration-300 hover:shadow-md">
             <div className="mb-4 flex flex-wrap gap-4 border-b border-gray-100 pb-4">
               <select
@@ -420,6 +422,17 @@ export default function FinanceTracker() {
               )}
             </div>
           </div>
+        </div>
+        <div className="rounded-xl border border-gray-200 bg-white p-6 shadow-sm md:col-span-1 transition-all duration-300 hover:shadow-md text-center">
+          Github Repository:{' '}
+          <a
+            href="https://github.com/ramilmoral/simple-personal-finance-tracker"
+            className="text-blue-600 hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            https://github.com/ramilmoral/simple-personal-finance-tracker
+          </a>
         </div>
       </div>
     </div>
