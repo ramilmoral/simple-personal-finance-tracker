@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🪙 Simple Finance Tracker
 
-## Getting Started
+A minimalist, single-page web application designed to track your daily income and expenses with zero clutter. Focus on your spending habits instantly without complex multi-page navigation or mandatory bank logins.
 
-First, run the development server:
+## ✨ Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **One-Page Dashboard:** View your entire financial summary, transaction history, and entry form all in one clean view.
+- **Instant Logging:** Quickly add expenses or income with category tags in just a few clicks.
+- **Visual Breakdown:** Dynamic charts showing your spending habits by category.
+- **Live Balance:** Real-time updates to your total remaining balance as you log transactions.
+- **Local Storage:** Your data stays privately on your device—no account registration required.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Frontend:** HTML5, CSS3, JavaScript (ES6+), NextJS
+- **Styling/UI:** Tailwind CSS
+- **Icons:** FontAwesome
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Getting Started
 
-## Learn More
+### Prerequisites
 
-To learn more about Next.js, take a look at the following resources:
+You only need a modern web browser (Chrome, Safari, Edge, Firefox) to run this application.
+You will need Node version 20^
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Installation & Running Locally
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/ramilmoral/simple-personal-finance-tracker
+   ```
+2. **Navigate to the project folder:**
+   ```bash
+   cd simple-personal-finance-tracker
+   ```
+3. **Install packages:**
+   Simply run the command:
+   ```bash
+   npm install
+   ```
+4. **Run the application:**
+   ```bash
+   npm run dev
+   ```
 
-## Deploy on Vercel
+## 📖 How to Use
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. **Add Transaction:** Enter the amount, select whether it is "Income" or "Expense", pick a category, and click _Save_.
+2. **Review Summary:** Check the top cards for your Total Income, Total Expenses, and Net Balance.
+3. **Manage History:** Scroll through the single-page feed to view or delete past entries.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🔒 Privacy & Security
+
+This app runs entirely in your client-side browser. No financial data is sent to external servers or databases.
